@@ -2,7 +2,13 @@
 
 # dependencies
 node_modules/
+# local env files
+.env
+.env.*
+!.env.example
 
+# generated API files
+src/api/generated/
 # Expo
 .expo/
 dist/
